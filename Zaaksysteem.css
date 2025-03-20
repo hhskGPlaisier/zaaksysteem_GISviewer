@@ -1,0 +1,101 @@
+html, body, #map-container {
+     padding: 0px;
+     margin: 0;
+     height: 100%;
+     width: 100%;
+}
+ .esri-sketch__section {
+     padding: 0px;
+     margin: 0;
+}
+ .esri-sketch__feature-count-badge {
+     margin-left: 4px;
+     margin-top: 2px;
+}
+ .esri-sketch__tool-section {
+     border-right: none;
+}
+ .esri-sketch__section {
+     padding: 0px;
+     margin: 0px;
+}
+ .esri-sketch__button.esri-icon-undo, .esri-sketch__button.esri-icon-redo {
+     display: none;
+}
+ #labelform {
+     padding: 4px;
+}
+ .esri-layer-list__item--has-children>.esri-layer-list__list {
+     padding: 0 0 0 15px;
+}
+ .esri-layer-list__item--has-children>.esri-layer-list__item-container {
+     padding-left: 4px;
+}
+ .esri-layer-list__item-container {
+     border-left: 0px;
+     padding: 4px 4px 0 4px;
+}
+ .esri-layer-list__list {
+     margin: 0px;
+}
+ .esri-layer-list {
+     padding: 4px;
+}
+ .esri-layer-list__item {
+     margin: 0px;
+     border-bottom: 0px;
+}
+ .esri-feature__content-element {
+     padding: 0px;
+}
+ .esri-view-width-less-than-medium .esri-popup__main-container {
+     width: auto;
+     max-width: 100%;
+     min-width: 70%;
+}
+ [class*="esri-popup--is-docked-bottom-"] .esri-popup__content ~ .esri-popup__footer, [class*="esri-popup--aligned-top-"] .esri-popup__content ~ .esri-popup__footer {
+     margin: 0px 0px 0px 0px;
+}
+ .esri-popup__header-buttons {
+     padding: 0px;
+}
+ .esri-popup--is-docked {
+     padding-top: 0px;
+}
+ .esri-popup__content {
+     margin: 0 6px 6px;
+}
+ .esri-popup__button {
+     margin: 0px;
+     padding: 4px 7px;
+}
+ .esri-popup__header {
+     padding-top: 3px;
+}
+ .esri-popup__footer {
+     margin: 0px;
+     padding: 0px 0px 6px 0px;
+}
+ .esri-popup__header-title {
+     padding: 0px;
+     text-align: left;
+     white-space: normal;
+}
+ .esri-widget__table tr th {
+    width: 25%;
+     border-right: 0px;
+}
+ .esri-widget {
+    line-height: 1em;
+}
+ .wf-pu-status-badge {
+    float: right;
+     font-size: 9px;
+     padding: 1px 4px;
+     border-radius: 6px;
+     margin-left: 1px;
+     font-weight: 400;
+     color: #fff;
+     height: 14px;
+     margin-top: -1px;
+}

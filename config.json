@@ -1,0 +1,77 @@
+{
+    "portalUrl": "https://gis.wetterskipfryslan.nl/portal",
+    "appId": "hBtorrAD81IJVjp1",
+    "webMapId": "8cfe40c38d4441b88ca01c6395553d9b",
+    "geowebUrl": "https://gis.wetterskipfryslan.nl/vertigisstudio/web/?app=59a7cee8f2b249f28d8d579e8d99d737",
+    "labelAttribute": "WF_LABEL",
+    "pointSymbol": {
+        "type": "simple-marker",
+        "style": "circle",
+        "color": "red",
+        "size": "11px",
+        "outline": {
+            "color": "red",
+            "width": 2
+        }
+    },
+    "fillSymbol": {
+        "type": "simple-fill",
+        "color": [
+            255,
+            255,
+            255,
+            0.69999999999999996
+        ],
+        "style": "solid",
+        "outline": {
+            "color": "red",
+            "width": 2
+        }
+    },
+    "lineSymbol": {
+        "type": "simple-line",
+        "color": "red",
+        "width": 2,
+        "style": "solid"
+    },
+    "emptySymbol": {
+        "type": "simple-marker",
+        "size": 0
+    },
+    "baseColorCase": [
+        0,
+        168,
+        230,
+        1
+    ],
+    "baseColorObject": [
+        123,
+        193,
+        57,
+        1
+    ],
+    "baseColorSubject": [
+        193,
+        0,
+        193,
+        1
+    ],
+    "labelClass": {
+        "symbol": {
+            "type": "text",
+            "color": "black",
+            "haloColor": "white",
+            "haloSize": "2px",
+            "font": {
+                "size": 10
+            }
+        },
+        "minScale": 200000,
+        "labelExpressionInfo": {
+            "expression": "$feature.LABEL"
+        },
+        "horizontalAlignment": "left"
+    },
+    "popupTitleTemplate": "<div style='display: flex;  width: 100%; margin: 0; padding: 0px;'> <div style='height: 10px; text-align: left; padding-right: 3px; flex-shrink: 0; margin-top: -2px;'>  <img src='{expression/PU_ICON_URL}.png' height='20px' />  <span style='display: {expression/PU_DSP_NOTIFICATIE}; position: absolute; height: 8px; width: 8px; margin-left: -0.3125rem; border-radius: 0.27rem; background-color: red;'></span> </div> <div style='width: 100%; margin-bottom: -5px; font-size: 15px; color: #1B73E7; font-weight: 600; text-align: left; white-space: normal; padding: 4px 2px 2px 1px;'>  <a style='color: #1B73E7; text-decoration: none;' href='{expression/PU_URL}' rel='nofollow ugc' target='_blank'>{expression/PU_TITEL}</a> </div> <span style='display: {expression/PU_DSP_BADGE_1}; background: {expression/PU_BADGE_KLEUR}; float: right; height: 14px; border-radius: 7px; margin-top: -1px; font-size: 10px; padding: 0px 5px; font-weight: 400; color: #fff; line-height: 15px; min-width: max-content;'>{expression/PU_BADGE}</span> <span style='display: {expression/PU_DSP_BADGE_2}; background: {expression/PU_BADGE_KLEUR}; float: right; height: 14px; min-width: 14px; border-radius: 7px; margin-top: -1px;'></span></div>",
+    "popupDescriptionTemplate": "<div style='width: 100%; font-size: 12px;'> <div style='color: #888888; padding-bottom: 3px; padding-top: 3px;'>{expression/PU_SUBTITEL}</div> <div style='margin-top: 1px; padding-top: 3px; border-top: 1px solid black; display: {expression/PU_DSP_DETAILS}'>  <div style='display: {expression/PU_DSP_TYPE}; flex-direction: row; min-width: 0;'>   <div style='font-weight: 600;'>{expression/PU_TYPE_LABEL}</div>   <div style='padding-left: 5px;'>{expression/PU_TYPE}</div>  </div>  <div style='display: {expression/PU_DSP_AANVRAGER}; flex-direction: row; min-width: 0;'>   <div style='font-weight: 600;'>Aanvrager</div>   <div style='padding-left: 5px;'>{expression/PU_AANVRAGER}</div>  </div>  <div style='display: {expression/PU_DSP_ONTVANGER}; flex-direction: row; min-width: 0;'>   <div style='font-weight: 600;'>Ontvanger</div>   <div style='padding-left: 5px;'>{expression/PU_ONTVANGER}</div>  </div>  <div style='display: {expression/PU_DSP_BEHANDELAAR}; flex-direction: row; min-width: 0;'>   <div style='font-weight: 600;'>Behandelaar</div>   <div style='padding-left: 5px;'>{expression/PU_BEHANDELAAR}</div>  </div>  <div style='display: {expression/PU_DSP_OORSPRONG}; flex-direction: row; min-width: 0;'>   <div style='font-weight: 600;'>Locatie</div>   <div style='padding-left: 5px;'>{expression/PU_OORSPRONG}</div>  </div>  <div style='display: {expression/PU_DSP_LOCATIE_OMSCHRIJVING}; flex-direction: row; min-width: 0;'>   <div style='font-weight: 600;'>Adres</div>   <div style='padding-left: 5px;'>{expression/PU_LOCATIE_OMSCHRIJVING}</div>  </div>  <div style='display: {expression/PU_DSP_FASE}; flex-direction: row; min-width: 0;'>   <div style='font-weight: 600;'>Fase</div>   <div style='padding-left: 5px;'>{expression/PU_FASE}</div>  </div>  <div style='display: {expression/PU_DSP_RESULTAAT}; flex-direction: row; min-width: 0;'>   <div style='font-weight: 600;'>Resultaat</div>   <div style='padding-left: 5px;'>{expression/PU_RESULTAAT}</div>  </div> </div></div>"
+}
